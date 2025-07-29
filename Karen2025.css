@@ -35,7 +35,8 @@ body {
 
 .resume_wrapper .resume_left {
 	width: 29%;
-	background:  #cfd8dc;
+	background: #cfd8dc;
+	height: 1138px;
 }
 
 .resume_wrapper .resume_left .resume_image {
@@ -47,6 +48,7 @@ body {
 	display: block;
 	border-bottom-left-radius: 120px;
 	border-bottom-right-radius: 137px;
+	height: 244px;
 }
 
 .resume_wrapper .resume_title {
@@ -63,7 +65,7 @@ body {
 }
 
 .resume_wrapper .resume_left .resume_bottom {
-	padding: 62px 16px;
+	padding: 23px 16px;
 }
 
 .resume_wrapper .resume_item {
@@ -95,6 +97,15 @@ body {
 	color: #fff;
 	text-transform: uppercase;
 	font-weight: 700;
+	margin-bottom: 15px;
+	letter-spacing: 4px;
+}
+
+.resume_wrapper .resume_namerole .berufstitel {
+	font-size: 15px;
+	color: #84838b;
+	text-transform: uppercase;
+	font-weight: 200;
 	margin-bottom: 15px;
 	letter-spacing: 4px;
 }

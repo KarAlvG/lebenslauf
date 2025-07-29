@@ -14,7 +14,7 @@
 	<div class="resume_wrapper">
 		<div class="resume_left">
 			<div class="resume_image">
-				<img src="Karen.jpg" alt="Resume_image">
+				<img src="Alvarez Gonzalez, Karen Ivone_JSD-0227.jpg" alt="Resume_image">
 			</div>
 			<div class="resume_bottom">
 				<div class="resume_item resume_namerole">
@@ -33,6 +33,7 @@
 							<li>Überzeugungsfähigkeit</li>
 							<li>Call Center-Erfahrung</li>
 							<li>Logisches Denken</li>
+							<li>Kenntnisse in Scrum</li>
 						</ul>
 					</div>
 				</div>
@@ -92,12 +93,28 @@
 						</div>
 					</div>
 				</div>
+
+
+
+				<div class="resume_item resume_skills">
+					<div class="resume_title">Datum</div>
+					<div class="resume_info">
+						<div class="skills_list">
+							<div class="skills_left">
+								<p><span id="currentDate"></span></p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
 			</div>
 		</div>
 
 		<div class="resume_right">
 			<div class="resume_item resume_namerole">
 				<div class="name">Karen Alvarez</div>
+				<div class="berufstitel">Fachinformatikerin Fachrichtung: Anwendungsentwicklung</div>
 				<div class="role"></div>
 			</div>
 
@@ -220,6 +237,13 @@
 		</div>
 	</div>
 
+
+
+	<script>
+		const today = new Date();
+		const options = { day: '2-digit', month: '2-digit', year: 'numeric' };
+		document.getElementById('currentDate').textContent = `Köln, den ${today.toLocaleDateString('de-DE', options)}`;
+	</script>
 </body>
 
 </html>
