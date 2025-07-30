@@ -60,6 +60,16 @@ body {
 	letter-spacing: 2px;
 }
 
+.date {
+		font-size: 15px;
+		color: #84838b;
+		text-transform: uppercase;
+		font-weight: 200;
+		margin-bottom: 3px;
+		letter-spacing: 4px;
+		margin-top: 84px;
+	}
+
 .resume_wrapper .resume_left .resume_info {
 	color: #2e2e31;
 }
@@ -275,4 +285,6 @@ body {
 	.resume_wrapper .resume_right .resmue_interests .interests .int_icon {
 		font-size: 24px;
 	}
+
+	
 }
